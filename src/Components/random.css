@@ -6,6 +6,11 @@
     margin-top: 300px;
     width: 800px;
     border-radius: 15px;
+    background-color: rgb(9, 113, 9);
+    padding: 2rem 0;
+    padding-left: auto;
+    padding-right: auto;
+    color: white;
 }
 
 .quote {
@@ -14,9 +19,9 @@
 
 .line {
     width: 600px;
-    height: 2px;
+    height: 4px;
     margin: 10px auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .bottom {
@@ -30,6 +35,20 @@
     font-size: 25px;
 }
 
+/* .icons {
+    margin: 1rem;
+    gap: 1rem;
+} */
+
 .icons {
-    margin: 5px auto;
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px; 
+    object-fit: contain;
+    cursor: pointer;
 }
